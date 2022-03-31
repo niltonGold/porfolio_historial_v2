@@ -1,5 +1,5 @@
 
-.container-videoPresentation_textPresentation{
+.Conoceme_container-videoPresentation_textPresentation{
     position: relative;
     display: flex;
     justify-content: center;
@@ -7,15 +7,15 @@
     width: 90%;
 }
 
-        .videoPresentation{
+        .Conoceme_videoPresentation{
             width: 100%;
         }
-                    .videoBackground{
+                    .Conoceme_videoBackground{
                         width: 100%;
                         display: block;
                     }
 
-                    .videoBackground-opacity{
+                    .Conoceme_videoBackground-opacity{
                         background-color: black;
                         width: 100%;
                         opacity: 0.50;
@@ -27,7 +27,7 @@
 
 
 
-        .textPresentation{
+        .Conoceme_textPresentation{
             color: #ffffff;
             position: absolute;
             top: 0;

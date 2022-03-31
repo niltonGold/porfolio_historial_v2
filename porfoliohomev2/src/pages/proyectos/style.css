@@ -1,5 +1,5 @@
 
-.container-videoPresentation_textPresentation{
+.Proyectos_container-videoPresentation_textPresentation{
     position: relative;
     display: flex;
     justify-content: center;
@@ -7,18 +7,18 @@
     width: 90%;
 }
 
-        .videoPresentation{
+        .Proyectos_videoPresentation{
             width: 100%;
         }
-                    .videoBackground{
+                    .Proyectos_videoBackground{
                         width: 100%;
                         display: block;
                     }
 
-                    .videoBackground-opacity{
+                    .Proyectos_videoBackground-opacity{
                         background-color: black;
                         width: 100%;
-                        opacity: 0;
+                        opacity: 0.5;
                         height: 100%;
                         position: absolute;
                         top: 0;
@@ -27,7 +27,7 @@
 
 
 
-        .textPresentation{
+        .Proyectos_textPresentation{
             color: #ffffff;
             position: absolute;
             text-align: center;

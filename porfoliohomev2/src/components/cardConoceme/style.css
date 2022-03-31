@@ -1,7 +1,7 @@
 
 
 /* CONTENEDOR DE TODA LA CARD */
-.card-container_all{
+.ConocemeCard-container_all{
     /* border: solid black 2px; */
     width: 80%;
     height: 400px;
@@ -9,55 +9,60 @@
     perspective: 800;
     /* background-color: rgb(29, 29, 255); */
     border-radius: 15px;
+
 }
 
 
-/* Cuando pase el raton sobre la card, afectara al "Contenedor de toda la card" y al  "contenedor de la card de deltante y detras" */
-.card-container_all:hover .card-container-cardFront-cardBegin{
-    transform: rotateY(180deg); 
-}
+        /* Cuando pase el raton sobre la card, afectara al "Contenedor de toda la card" y al  "contenedor de la card de deltante y detras" */
+        .ConocemeCard-container_all:hover .ConocemeCard-container-cardFront-cardBegin{
+            transform: rotateY(180deg); 
+        }
+
 
         /* Contenedor de la parte de adelante y de atras de la card */
-        .card-container-cardFront-cardBegin{
+        .ConocemeCard-container-cardFront-cardBegin{
             width: 100%;
             height: 100%;
             position: relative; /* Esto sirve para que se posicione correctamente el texto de la parte de delante y la de detras */
             transform-style: preserve-3d; /* Esto hara que al girar la parte de atras quede atras y la parte de delante quede adelante */
             transition: .7s ease; /* Esto hara que la targeta gire como si fuera de verdad */
-            
         }
         
+
                 /* Card Parte de Delante */
-                .cardFront{
-                    /* background-color: aqua; */
+                .ConocemeCard-Background-Opacity-Front{
+                    background-color: black;
                     width: 100%;
+                    opacity: 0.7;
                     height: 100%;
                     position: absolute;
-                    -webkit-backface-visibility: hidden; 
-                    backface-visibility: hidden;
-                 
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    border-radius: 15px;
                 }
 
-
-                        .texto_front{
-                            display: flex;
-                            align-items: center;
-                            height: 100%;
-                            width: 100%;
-                            font-weight: bold;
-                            justify-content: center;
-                            color: white;
-                            font-size: 4rem;
-                            word-break: break-all;
-                            /* background-color: aqua; */
-                                 
-                        }
-
+                .ConocemeCard-texto_front{
+                    color: #ffffff;
+                    position: absolute;
+                    text-align: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 65%;
+                    display: flex;
                     
+                    justify-content: center;
+                    font-size: 3rem;
+                    font-weight: bold;         
+                }
+
+                        
+
+
 
                 /* Card Parte de Detras */
-                .cardBegin{
-                    background-color: bisque;
+                .ConocemeCard-Begin{
+                    background-color: orange;
                     width: 100%;
                     height: 100%;
                     position: absolute;

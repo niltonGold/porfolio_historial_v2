@@ -96,29 +96,29 @@ export default function Conoceme(){
     return(
         <Stack sx={{ width:'100%', gap:'1rem', alignItems:'center', p:'1rem' }}>
             
-            <div className='container-videoPresentation_textPresentation'>
+            <div className='Conoceme_container-videoPresentation_textPresentation'>
 
-                            <div className='videoPresentation'>
-                                <video className='videoBackground' autoPlay="true" muted="muted" loop type="video/mp4" src={videoConoceme}></video>
-                                <div className='videoBackground-opacity'></div>
+                            <div className='Conoceme_videoPresentation'>
+                                <video className='Conoceme_videoBackground' autoPlay="true" muted="muted" loop type="video/mp4" src={videoConoceme}></video>
+                                <div className='Conoceme_videoBackground-opacity'></div>
                             </div>
 
                             
-                            <div className='textPresentation'>
+                            <div className='Conoceme_textPresentation'>
                                 <h1>presentation</h1>
                             </div>
             
             </div>
 
-            <CardConoceme imagenConoceme={pasionesImagen} textoFrontConoceme={pasionesTitulo}></CardConoceme>
+            <CardConoceme imagenFondoFrontConoceme={pasionesImagen} textoFrontConoceme={pasionesTitulo}></CardConoceme>
 
-            <CardConoceme imagenConoceme={caracteristicasPersonalesImagen} textoFrontConoceme={caracteristicasPersonalesTitulo()}></CardConoceme>
+            <CardConoceme imagenFondoFrontConoceme={caracteristicasPersonalesImagen} textoFrontConoceme={caracteristicasPersonalesTitulo()}></CardConoceme>
 
-            <CardConoceme imagenConoceme={habilidadesImagen} textoFrontConoceme={habilidadesTitulo}></CardConoceme>
+            <CardConoceme imagenFondoFrontConoceme={habilidadesImagen} textoFrontConoceme={habilidadesTitulo}></CardConoceme>
 
-            <CardConoceme imagenConoceme={otrasHabilidadesImagen} textoFrontConoceme={otrasHabilidadesTitulo()}></CardConoceme>
+            <CardConoceme imagenFondoFrontConoceme={otrasHabilidadesImagen} textoFrontConoceme={otrasHabilidadesTitulo()}></CardConoceme>
 
-            <CardConoceme imagenConoceme={adaptabilidadImagen} textoFrontConoceme={adaptabilidadTitulo}></CardConoceme>
+            <CardConoceme imagenFondoFrontConoceme={adaptabilidadImagen} textoFrontConoceme={adaptabilidadTitulo}></CardConoceme>
 
      
             
