@@ -107,20 +107,20 @@ export default function Proyectos(){
             <Stack sx={{ width:'100%', gap:'1rem', alignItems:'center', p:'1rem' }}>
 
 
-                    <div className='container-videoPresentation_textPresentation'>
+                    <div className='Proyectos_container-videoPresentation_textPresentation'>
 
-                            <div className='videoPresentation'>
-                                <video className='videoBackground' autoPlay="true" muted="muted" loop type="video/mp4" src={videoProyecto}></video>
-                                <div className='videoBackground-opacityy'></div>
+                            <div className='Proyectos_videoPresentation'>
+                                <video className='Proyectos_videoBackground' autoPlay="true" muted="muted" loop type="video/mp4" src={videoProyecto}></video>
+                                <div className='Proyectos_videoBackground-opacity'></div>
                             </div>
 
-                            <div className='textPresentation'>
+                            <div className='Proyectos_textPresentation'>
                                 <h1>presentation</h1>
                             </div>
                     
                     </div>
 
-                    <CardProyecto imagenFondoFrontProyectos={webResponsiveImagen} textoFrontProyectos={WebResponsiveText()}></CardProyecto>
+                    <CardProyecto imagenFondoFrontProyectos={webResponsiveImagen} textoFrontProyectos={weatherAppTextFront}></CardProyecto>
 
                     <CardProyecto imagenFondoFrontProyectos={elTetris} textoFrontProyectos={elTetrisTextFront}></CardProyecto>
 
