@@ -1,0 +1,41 @@
+
+.container-videoPresentation_textPresentation{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+        .videoPresentation{
+            width: 100%;
+        }
+                    .videoBackground{
+                        width: 100%;
+                        display: block;
+                    }
+
+                    .videoBackground-opacity{
+                        background-color: black;
+                        width: 100%;
+                        opacity: 0.50;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        bottom: 1rem;
+                    }
+
+
+
+        .textPresentation{
+            color: #ffffff;
+            position: absolute;
+            top: 0;
+            text-align: center;
+            width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 1em;
+        }
