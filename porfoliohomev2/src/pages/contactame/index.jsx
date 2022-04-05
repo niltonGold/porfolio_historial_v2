@@ -6,7 +6,7 @@ export default function Contactame(){
 
     return(
         <Fragment>
-            Contáctame
+            ContáctameContáctameContáctameContáctame
         </Fragment>
     )
 }
