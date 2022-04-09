@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Avatar, Stack } from '@mui/material';
 import './style.css';
-import twitterAvatar from '../../imagenes/imagenes_contactame/twitter.png'
+
 
 export default function CardContactame(props) {
 

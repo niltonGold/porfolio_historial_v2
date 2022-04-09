@@ -2,62 +2,9 @@
  @media ( min-width : 0px ) and ( max-width: 700px ) {
     .Proyectos_container-videoPresentation_textPresentation{
         height: 65vh;
-        background-image: url(../../imagenes/imagenes_conoceme/adaptabilidad.jpg);
+        background-image: url(../../imagenes/imagenes_proyectos/machupichuProyectos.jpeg);
     }
  }
-
-
-/* 
-.Proyectos_container-videoPresentation_textPresentation{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-        .Proyectos_videoPresentation{
-            width: 100%;
-
-
-            
-        }
-                    .Proyectos_videoBackground{
-                        width: 100%;
-                        display: block;
-                    }
-
-                    .Proyectos_videoBackground-opacity{
-                        background-color: black;
-                        width: 100%;
-                        opacity: 0.6;
-                        height: 100%;
-                        position: absolute;
-                        top: 0;
-                        bottom: 1rem;
-                    }
-
-
-
-        .Proyectos_textPresentation{
-            color: #ffffff;
-            position: absolute;
-            text-align: center;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            row-gap: 1em;
-            
-        }
-
-
-        .enlace_al_proyecto{
-            text-decoration: none;
-            font-weight: bold;
-            color: #ffffff;
-        } */
 
         .Proyectos_container-videoPresentation_textPresentation{
             position: relative;

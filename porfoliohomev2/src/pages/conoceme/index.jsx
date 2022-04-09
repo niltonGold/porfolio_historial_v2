@@ -9,30 +9,14 @@ import caracteristicasPersonalesImagen from '../../imagenes/imagenes_conoceme/ca
 import habilidadesImagen from '../../imagenes/imagenes_conoceme/habilidades.jpg';
 import otrasHabilidadesImagen from '../../imagenes/imagenes_conoceme/otrasHabilidades.jpg';
 import adaptabilidadImagen from '../../imagenes/imagenes_conoceme/adaptabilidad.jpg'
+import Button from '@mui/material/Button';
+import pdf from '../../components/documentos/curriculumVitae.pdf';
 
 export default function Conoceme(){
-    // TEXTO DE LO QUE ESTA ESCRITO ENCIMA DEL VIDEO
-    function ConocmeTextoVideoOver(){
-        return(
-            <Stack sx={{ p:'1rem', gap:'1rem', width:'100%', height:'100%' }}>
-
-
-                    <Stack  sx={{ flexDirection:'row', gap:'1rem'}}>
-
-                            <Typography sx={{ color:'white', textAlign:'center', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
-                                Soy Nilton Medina Sayan y aquí te comento cómo soy a nivel personal y profesional
-                            </Typography>
-
-
-                    </Stack>
-
-
-            </Stack>
-        )
-    }
+   
 
     // PASIONES
-            // TITULO DE DELANTE DE LA CARD
+            // TITULO DE DELANTE DE LA CARD PASIONES
                     function PasionesTextFront(){
                         return(
                             <Stack sx={{ flexDirection:'column', textAlign:'center' }}>
@@ -42,8 +26,7 @@ export default function Conoceme(){
                                                 height:'100%',
                                                 justifyContent:'center',
                                                 color:'white',
-                                                fontSize:'3rem',
-                                                //fontSize:{ xs:'1rem', md:'3rem' },
+                                                fontSize:{ xs:'1rem', md:'3rem' },
                                                 wordBreak:'break-all',
                                                 fontWeight:'bold'  }} >
                                         PASIONES
@@ -54,26 +37,22 @@ export default function Conoceme(){
                     }
 
 
-            // TEXTO DE DETRAS DE LA CARD
+            // TEXTO DE DETRAS DE LA CARD PASIONES
                     function PasionesTextBegin(){
                         return(
                             <Stack sx={{ textAlign:'center', p:'2rem', height:'100%', pt:'3rem' }}>
 
                                                 <Typography
                                                         sx={{   alignItems:'center',
-                                                        
                                                                 justifyContent:'center',
                                                                 color:'white',
-                                                                
                                                                 fontSize:{ xs:'x-small', md:'large' },
-                                                                textAlign:'justify',
-                                                                // fontWeight:'bold',
-                                                                
+                                                                textAlign:'justify',  
                                                                 width:'100%' }} >
-                                                        Esta web está dividida en 3 partes, la primera parte es un video con opacidad y un título 
-                                                    por encima, la segunda parte son 3 cards que giran al pasar el ratón por encima y la tercera parte son 3 cards para 
-                                                    poder elegir diferentes paquetes de precios. Los botones, los íconos de redes sociales y el círculo "Most popular" son enlace,
-                                                    toda la web se puede ver en pantallas grandes y pequeñas.
+
+                                                    Me gusta mucho que las cosas estén muy ordenadas, tal y como se muestra en la página de mi porfolio 
+                                                    , para ello utilizo mucho el CSS y el React UI Framework MUI.
+
                                                 </Typography>
 
                             </Stack>
@@ -82,79 +61,214 @@ export default function Conoceme(){
 
 
 
+
     // CARACTERISTICAS PERSONALES
-    function caracteristicasPersonalesTitulo(){
-        return(
-            <Stack sx={{ flexDirection:'column', textAlign:'center' }}>
+            // TITULO DE DELANTE DE CARACTERISTICAS PERSONALES
+                    function CaracteristicasPersonalesTextFront(){
+                        return(
+                            <Stack sx={{ flexDirection:'column', textAlign:'center' }}>
 
-                <Typography 
-                        sx={{   alignItems:'center',
-                                height:'100%',
-                                justifyContent:'center',
-                                color:'white',
-                                fontSize:'3rem',
-                                wordBreak:'break-all',
-                                fontWeight:'bold'  }} >
-                        CARACTERÍSTICAS
-                </Typography>
+                                <Typography 
+                                        sx={{   alignItems:'center',
+                                                height:'100%',
+                                                justifyContent:'center',
+                                                color:'white',
+                                                fontSize:{ xs:'1rem', md:'3rem' },
+                                                wordBreak:'break-all',
+                                                fontWeight:'bold'  }} >
+                                        CARACTERÍSTICAS
+                                </Typography>
 
-                <Typography
-                        sx={{   alignItems:'center',
-                                height:'100%',
-                                justifyContent:'center',
-                                color:'white',
-                                fontSize:'3rem',
-                                wordBreak:'break-all',
-                                fontWeight:'bold'  }} >
-                        PERSONALES
-                </Typography>
-                
-            </Stack>
-        )
-    }
-    
+                                <Typography 
+                                        sx={{   alignItems:'center',
+                                                height:'100%',
+                                                justifyContent:'center',
+                                                color:'white',
+                                                fontSize:{ xs:'1rem', md:'3rem' },
+                                                wordBreak:'break-all',
+                                                fontWeight:'bold'  }} >
+                                        PERSONALES
+                                </Typography>
+                                
+                            </Stack>
+                        )
+                    }
+
+
+            // TEXTO DE DETRAS DE CARACTERISTICAS PERSONALES
+                    function CaracteristicasPersonalesTextBegin(){
+                        return(
+                            <Stack sx={{ textAlign:'center', p:'2rem', height:'100%', pt:'3rem' }}>
+
+                                                <Typography
+                                                        sx={{   alignItems:'center',
+                                                                justifyContent:'center',
+                                                                color:'white',
+                                                                fontSize:{ xs:'x-small', md:'large' },
+                                                                textAlign:'justify',  
+                                                                width:'100%' }} >
+
+                                                    Soy una persona muy responsable, trabajadora, ordenada y sobre todo muy puntual, 
+                                                     la puntualidad es muy importante para mi, además cuando me comprometo a algo no 
+                                                    para hasta que lo termino todo, me gusta mucho buscar constantemente soluciones a los problemas. 
+
+                                                </Typography>
+
+                            </Stack>
+                        )
+                    }
 
 
     // HABILIDADES
-    const habilidadesTitulo = 'HABILIDADES'
+            // TITULO DE DELANTE DE HABILIDADES
+                    function HabilidadesTextFront(){
+                        return(
+                            <Stack sx={{ flexDirection:'column', textAlign:'center' }}>
+
+                                <Typography 
+                                        sx={{   alignItems:'center',
+                                                height:'100%',
+                                                justifyContent:'center',
+                                                color:'white',
+                                                fontSize:{ xs:'1rem', md:'3rem' },
+                                                wordBreak:'break-all',
+                                                fontWeight:'bold'  }} >
+                                        HABILIDADES
+                                </Typography>
+                                
+                            </Stack>
+                        )
+                    }
+
+
+            // TEXTO DE DETRAS DE CARACTERISTICAS PERSONALES
+                    function HabilidadesTextBegin(){
+                        return(
+                            <Stack sx={{ textAlign:'center', p:'2rem', height:'100%', pt:'3rem' }}>
+
+                                                <Typography
+                                                        sx={{   alignItems:'center',
+                                                                justifyContent:'center',
+                                                                color:'white',
+                                                                fontSize:{ xs:'x-small', md:'large' },
+                                                                textAlign:'justify',  
+                                                                width:'100%' }} >
+
+                                                    Mis habilidades fundamentales son el FULL STACK, es decir el desarrollo web desde el 
+                                                    Front-End hasta el Back-End utilizando para ello HTML, CSS, JAVASCRIPT, la libreria REACT y 
+                                                    NODE JS, para poder realizar el FULL STACK estudié el STACK MERN ( MongDB, ExpressJS, ReactJS, NodeJS ).
+
+                                                </Typography>
+
+                            </Stack>
+                        )
+                    }
 
 
 
     // OTRAS HABILIDADES
-    function otrasHabilidadesTitulo(){
-        return(
-            <Stack sx={{ flexDirection:'column', textAlign:'center' }}>
+            // TITULO DE DELANTE DE OTRAS HABILIDADES
+                    function OtrasHabilidadesTextFront(){
+                        return(
+                            <Stack sx={{ flexDirection:'column', textAlign:'center' }}>
 
-                <Typography 
-                        sx={{   alignItems:'center',
-                                height:'100%',
-                                justifyContent:'center',
-                                color:'white',
-                                fontSize:'3rem',
-                                wordBreak:'break-all',
-                                fontWeight:'bold'  }} >
-                        OTRAS
-                </Typography>
+                                <Typography 
+                                        sx={{   alignItems:'center',
+                                                height:'100%',
+                                                justifyContent:'center',
+                                                color:'white',
+                                                fontSize:{ xs:'1rem', md:'3rem' },
+                                                wordBreak:'break-all',
+                                                fontWeight:'bold'  }} >
+                                        OTRAS
+                                </Typography>
+                                
+                                <Typography 
+                                        sx={{   alignItems:'center',
+                                                height:'100%',
+                                                justifyContent:'center',
+                                                color:'white',
+                                                fontSize:{ xs:'1rem', md:'3rem' },
+                                                wordBreak:'break-all',
+                                                fontWeight:'bold'  }} >
+                                        HABILIDADES
+                                </Typography>
 
-                <Typography
-                        sx={{   alignItems:'center',
-                                height:'100%',
-                                justifyContent:'center',
-                                color:'white',
-                                fontSize:'3rem',
-                                wordBreak:'break-all',
-                                fontWeight:'bold'  }} >
-                        HABILIDADES
-                </Typography>
-                
-            </Stack>
-        )
-    }
+                            </Stack>
+                        )
+                    }
+
+
+            // TEXTO DE DETRAS DE OTRAS HABILIDADES
+                    function OtrasHabilidadesTextBegin(){
+                        return(
+                            <Stack sx={{ textAlign:'center', p:'2rem', height:'100%', pt:'3rem' }}>
+
+                                                <Typography
+                                                        sx={{   alignItems:'center',
+                                                                justifyContent:'center',
+                                                                color:'white',
+                                                                fontSize:{ xs:'x-small', md:'large' },
+                                                                textAlign:'justify',  
+                                                                width:'100%' }} >
+
+                                                    Además de mis conocimientos en FULL STACK también tengo otros conocimientos extras como, conceptos básicos de 
+                                                    Java, Pascal, administración y gestión de redes, además de conocimientos básicos de entornos de sistemas operativos 
+                                                    como Windows o Linux.
+
+                                                </Typography>
+
+                            </Stack>
+                        )
+                    }
 
 
 
     // ADAPTABILIDAD
-    const adaptabilidadTitulo = 'ADAPTABILIDAD';
+            // TITULO DE DELANTE DE ADAPTABILIDAD
+                    function AdaptabilidadTextFront(){
+                        return(
+                            <Stack sx={{ flexDirection:'column', textAlign:'center' }}>
+
+                                <Typography 
+                                        sx={{   alignItems:'center',
+                                                height:'100%',
+                                                justifyContent:'center',
+                                                color:'white',
+                                                fontSize:{ xs:'1rem', md:'3rem' },
+                                                wordBreak:'break-all',
+                                                fontWeight:'bold'  }} >
+                                        ADAPTABILIDAD
+                                </Typography>
+
+                            </Stack>
+                        )
+                    }
+
+
+            // TEXTO DE DETRAS DE OTRAS HABILIDADES
+                    function AdaptabilidadTextBegin(){
+                        return(
+                            <Stack sx={{ textAlign:'center', p:'2rem', height:'100%', pt:'3rem' }}>
+
+                                                <Typography
+                                                        sx={{   alignItems:'center',
+                                                                justifyContent:'center',
+                                                                color:'white',
+                                                                fontSize:{ xs:'x-small', md:'large' },
+                                                                textAlign:'justify',  
+                                                                width:'100%' }} >
+
+                                                    Me adapto a casi cualquier situación que se me presente, si hace falta revisar la documentación de 
+                                                    algún otro código de programación ajeno a lo que estudié lo hago sin ningun problema, cualquier cosa nueva 
+                                                    de la que me tenga que documentar me lo tomo como un reto a superar.
+
+                                                </Typography>
+
+                            </Stack>
+                        )
+                    }
+
 
 
 
@@ -170,8 +284,25 @@ export default function Conoceme(){
 
                             
                             <div className='Conoceme_textPresentation'>
-                            Soy Nilton Medina Sayan y aquí te comento cómo soy a nivel personal y profesional
+
+                                    Soy Nilton Medina Sayan y aquí te comento como soy a nivel personal y profesional
+
+                                    <a className='porfolio_link_download_conoceme' href={pdf} target="_blank" rel="noopener noreferrer" download="CurriculumVitae.pdf">
+
+                                            <div>👉</div>
+
+                                            <Button variant="contained" sx={{ height:'2rem', color:'white', fontWeight:'bold', backgroundColor:'orange', fontSize:{ xs:'x-small', md:'large' } }} >          
+                                                    DESCARGA MI CV                 
+                                            </Button>
+
+                                            <div>👈</div>
+
+                                    </a> 
+
                             </div>
+
+                            
+                           
             
             </div>
 
@@ -180,19 +311,21 @@ export default function Conoceme(){
                             <Stack sx={{ fontSize:'2rem' }}>
                                 👇
                             </Stack>
-
+                            <Typography sx={{ color:'white', fontSize:'bold', alignSelf:'center', fontWeight:'bold' }}>
+                                CONÓCEME
+                            </Typography>
 
             </Stack>
 
             <CardConoceme imagenFondoFrontConoceme={pasionesImagen} textoFrontConoceme={PasionesTextFront()} textoBeginConoceme={PasionesTextBegin()} ></CardConoceme>
 
-            {/* <CardConoceme imagenFondoFrontConoceme={caracteristicasPersonalesImagen} textoFrontConoceme={caracteristicasPersonalesTitulo()}></CardConoceme>
+            <CardConoceme imagenFondoFrontConoceme={caracteristicasPersonalesImagen} textoFrontConoceme={CaracteristicasPersonalesTextFront()} textoBeginConoceme={CaracteristicasPersonalesTextBegin()}></CardConoceme>
 
-            <CardConoceme imagenFondoFrontConoceme={habilidadesImagen} textoFrontConoceme={habilidadesTitulo}></CardConoceme>
+            <CardConoceme imagenFondoFrontConoceme={habilidadesImagen} textoFrontConoceme={HabilidadesTextFront()} textoBeginConoceme={HabilidadesTextBegin()} ></CardConoceme>
 
-            <CardConoceme imagenFondoFrontConoceme={otrasHabilidadesImagen} textoFrontConoceme={otrasHabilidadesTitulo()}></CardConoceme>
+            <CardConoceme imagenFondoFrontConoceme={otrasHabilidadesImagen} textoFrontConoceme={OtrasHabilidadesTextFront()} textoBeginConoceme={OtrasHabilidadesTextBegin()} ></CardConoceme>
 
-            <CardConoceme imagenFondoFrontConoceme={adaptabilidadImagen} textoFrontConoceme={adaptabilidadTitulo}></CardConoceme> */}
+            <CardConoceme imagenFondoFrontConoceme={adaptabilidadImagen} textoFrontConoceme={AdaptabilidadTextFront()} textoBeginConoceme={AdaptabilidadTextBegin()} ></CardConoceme>
 
      
             

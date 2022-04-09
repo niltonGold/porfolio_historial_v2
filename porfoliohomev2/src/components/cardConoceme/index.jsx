@@ -11,29 +11,29 @@ export default function CardConoceme(props) {
 
             <div className='ConocemeCard-container-cardFront-cardBegin'>
 
-                {/* Parte de Delante */}
-                <Stack sx={{ 
-                            width:'100%', 
-                            height:'100%', 
-                            position: 'absolute', 
-                            WebkitBackfaceVisibility:'hidden', 
-                            backfaceVisibility:'hidden', 
-                            backgroundImage:`url(${props.imagenFondoFrontConoceme})`, 
-                            backgroundSize:'100% 100%', 
-                            borderRadius:'15px', p:'1rem' }}>
+                        {/* Parte de Delante */}
+                        <Stack sx={{ 
+                                width:'100%', 
+                                height:'100%', 
+                                position: 'absolute', 
+                                WebkitBackfaceVisibility:'hidden', 
+                                backfaceVisibility:'hidden', 
+                                backgroundImage:`url(${props.imagenFondoFrontConoceme})`, 
+                                backgroundSize:'100% 100%', 
+                                borderRadius:'15px', p:'1rem' }}>
 
 
-                        <div className='ConocemeCard-Background-Opacity-Front'/>
+                                <div className='ConocemeCard-Background-Opacity-Front'/>
 
-                        <p className='ConocemeCard-texto_front'>{props.textoFrontConoceme}</p>
+                                <p className='ConocemeCard-texto_front'>{props.textoFrontConoceme}</p>
 
-                        
-                </Stack>
+                                
+                        </Stack>
 
-                {/* Parte de Detras */}
-                <div className='ConocemeCard-Begin'>
-                        {props.textoBeginConoceme}
-                </div>
+                        {/* Parte de Detras */}
+                        <div className='ConocemeCard-Begin'>
+                                {props.textoBeginConoceme}
+                        </div>
 
             </div>
            
