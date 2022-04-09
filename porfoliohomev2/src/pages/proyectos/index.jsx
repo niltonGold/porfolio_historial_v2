@@ -7,16 +7,18 @@ import { Avatar } from '@mui/material';
 import webResponsiveImagen from '../../imagenes/imagenes_proyectos/imagenes_proyecto_webresponsive/webResponsive.jpg';
 import elTetris from '../../imagenes/imagenes_proyectos/imagenes_proyecto_tetris/tetris.jpg';
 import tableroKanban from '../../imagenes/imagenes_proyectos/imagenes_proyecto_kanban/kanban.jpg';
-import weatherApp from '../../imagenes/imagenes_proyectos/imagenes_proyecto_weatherapp/weather.png'
-import fotoPorfolio from '../../imagenes/imagenes_porfolio/fotoPorfolio.jpg'
-
+import weatherApp from '../../imagenes/imagenes_proyectos/imagenes_proyecto_weatherapp/weather.png';
+import fotoPorfolio from '../../imagenes/imagenes_porfolio/fotoPorfolio.jpg';
+import InsertLinkIcon from '@mui/icons-material/InsertLink';
+import Button from '@mui/material/Button';
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 export default function Proyectos(){
 
             // TEXTO DE LO QUE ESTA ESCRITO ENCIMA DEL VIDEO
                 function ProyectosTextoVideoOver(){
                     return(
-                        <Stack sx={{ p:'1rem', gap:'1rem', position:'relative', width:'100%', height:'100%' }}>
+                        <Stack sx={{ p:'1rem', gap:{ xs:'0.1rem', sm:'1rem' }, position:'relative', width:'100%', height:'100%' }}>
 
 
                                 <Stack  sx={{ flexDirection:'row', gap:'1rem'}}>
@@ -26,7 +28,7 @@ export default function Proyectos(){
                                             un espacio donde me conocerás un poco más a nivel <b>personal</b>  y <b>profesional</b>.
                                         </Typography>
 
-                                        <Avatar sx={{ width:{ xs:'4rem', md:'7rem' }, height:{ xs:'4rem', md:'7rem' } }} alt="Remy Sharp" src={fotoPorfolio} />
+                                        <Avatar sx={{ width:{ xs:'4rem', md:'9rem' }, height:{ xs:'4rem', md:'9rem' } }} alt="Remy Sharp" src={fotoPorfolio} />
 
                                 </Stack>
 
@@ -99,12 +101,8 @@ export default function Proyectos(){
 
 
             // DATOS DE LA CARD WEBRESPONSIVEANIMADA
-                    // PARTE DE DELANTE
-                        // IMAGEN DE DELTANTE
-
-
-                        // TEXO DE DELANTE
-                        function WebResponsiveText(){
+                    // TEXO DE DELANTE
+                        function WebResponsiveTextFront(){
                             return(
                                 <Stack sx={{ flexDirection:'column', textAlign:'center' }}>
 
@@ -113,7 +111,8 @@ export default function Proyectos(){
                                                     height:'100%',
                                                     justifyContent:'center',
                                                     color:'white',
-                                                    fontSize:'3rem',
+                                                    // fontSize:'3rem',
+                                                    fontSize:{ xs:'1rem', md:'3rem' },
                                                     wordBreak:'break-all',
                                                     fontWeight:'bold'  }} >
                                             WEB RESPONSIVE
@@ -124,7 +123,7 @@ export default function Proyectos(){
                                                     height:'100%',
                                                     justifyContent:'center',
                                                     color:'white',
-                                                    fontSize:'3rem',
+                                                    fontSize:{ xs:'1rem', md:'3rem' },
                                                     wordBreak:'break-all',
                                                     fontWeight:'bold'  }} >
                                             ANIMADA
@@ -135,23 +134,191 @@ export default function Proyectos(){
                         }
 
 
-                    // PARTE DE DETRAS
-                        // TEXTO DE DETRAS
+                    // TEXTO DE DETRAS
+                        function WebResponsiveTextBegin(){
+                            return(
+                                <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:'2rem', pt:'2rem' }}>
+
+                                            <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
+
+                                                    <Stack sx={{ width:{ xs:'100%', sm:'40%'}, textAlign:'left', color:'white', fontSize:{ xs:'x-small', md:'large' }, fontWeight:'bold' }}>
+                                                            - Tecnologías Utilizadas .- 
+                                                    </Stack>
+
+                                                    <Typography
+                                                            sx={{   alignItems:'left',
+                                                                    height:'100%',
+                                                                    justifyContent:'center',
+                                                                    color:'white',
+                                                                    fontSize:{ xs:'x-small', md:'large' },
+                                                                    // wordBreak:'break-all',
+                                                                    // backgroundColor:'red',
+                                                                    textAlign:'justify',
+                                                                   
+                                                                    width:{ xs:'100%', sm:'60%'}  }} >
+                                                            HTML, CSS
+                                                    </Typography>
+
+                                            </Stack>
+                                            
+
+                                            <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
+
+                                                    <Stack sx={{ width:{ xs:'100%', sm:'30%'}, textAlign:'left', color:'white', fontSize:{ xs:'x-small', md:'large' }, fontWeight:'bold' }}>
+                                                        - Descripción .- 
+                                                    </Stack>
+
+                                                    <Typography
+                                                            sx={{   alignItems:'center',
+                                                                    height:'100%',
+                                                                    justifyContent:'center',
+                                                                    color:'white',
+                                                                    fontSize:{ xs:'x-small', md:'large' },
+                                                                    // wordBreak:'break-all',
+                                                                    textAlign:'justify',
+                                                                    // fontWeight:'bold',
+                                                                    width:{ xs:'100%', sm:'70%'}  }} >
+                                                            Esta web está dividida en 3 partes, la primera parte es un video con opacidad y un título 
+                                                        por encima, la segunda parte son 3 cards que giran al pasar el ratón por encima y la tercera parte son 3 cards para 
+                                                        poder elegir diferentes paquetes de precios. Los botones, los íconos de redes sociales y el círculo "Most popular" son enlace,
+                                                         toda la web se puede ver en pantallas grandes y pequeñas.
+                                                    </Typography>
+
+                                            </Stack>
+
+
+                                            <Stack sx={{ alignItems :'center', width:'100%' }}>
+                                                    <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}>
+                                                            
+                                                                <Button sx={{ ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' }  }} >
+                                                                    
+                                                                    <InsertLinkIcon sx={{ fontSize:'2.5rem' }}></InsertLinkIcon> 
+
+                                                                    <a className='enlace_al_proyecto' target="_blank" rel="noopener noreferrer" href="https://www.google.com/">
+                                                                                Enlace Al Proyecto
+                                                                    </a>
+                                                        
+                                                                </Button>
+                                                            
+                                                    </Stack>
+
+                                            </Stack>
+
+                                </Stack>
+                            )
+                        }
 
 
     // --------------------------------------------------------------------------  
 
 
             // DATOS DE LA CARD WEBRESPONSIVEANIMADA
-                    // PARTE DE DELANTE
-                        // IMAGEN DE DELTANTE
+                    // TEXO DE DELANTE
+                    function ElTetrisTextFront(){
+                        return(
+                            <Stack sx={{ flexDirection:'column', textAlign:'center' }}>
+
+                                <Typography 
+                                        sx={{   alignItems:'center',
+                                                height:'100%',
+                                                justifyContent:'center',
+                                                color:'white',
+                                                // fontSize:'3rem',
+                                                fontSize:{ xs:'1rem', md:'3rem' },
+                                                wordBreak:'break-all',
+                                                fontWeight:'bold'  }} >
+                                        EL
+                                </Typography>
+
+                                <Typography
+                                        sx={{   alignItems:'center',
+                                                height:'100%',
+                                                justifyContent:'center',
+                                                color:'white',
+                                                fontSize:{ xs:'1rem', md:'3rem' },
+                                                wordBreak:'break-all',
+                                                fontWeight:'bold'  }} >
+                                        TETRIS
+                                </Typography>
+                                
+                            </Stack>
+                        )
+                    }
 
 
-                        // TEXO DE DELANTE
-                        const elTetrisTextFront = 'EL TETRIS';
+                // TEXTO DE DETRAS
+                    function ElTetrisTextBegin(){
+                        return(
+                            <Stack sx={{ flexDirection:'column', textAlign:'center', p:'0.5rem', gap:'2rem', pt:'2rem' }}>
 
-                    // PARTE DE DETRAS
-                        // TEXTO DE DETRAS
+                                        <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
+
+                                                <Stack sx={{ width:{ xs:'100%', sm:'40%'}, textAlign:'left', color:'white', fontSize:{ xs:'x-small', md:'large' }, fontWeight:'bold' }}>
+                                                        - Tecnologías Utilizadas .- 
+                                                </Stack>
+
+                                                <Typography
+                                                        sx={{   alignItems:'left',
+                                                                height:'100%',
+                                                                justifyContent:'center',
+                                                                color:'white',
+                                                                fontSize:{ xs:'x-small', md:'large' },
+                                                                // wordBreak:'break-all',
+                                                                // backgroundColor:'red',
+                                                                textAlign:'justify',
+                                                               
+                                                                width:{ xs:'100%', sm:'60%'}  }} >
+                                                        HTML, CSS y Vanilla JAVASCRIPT
+                                                </Typography>
+
+                                        </Stack>
+                                        
+
+                                        <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
+
+                                                <Stack sx={{ width:{ xs:'100%', sm:'30%'}, textAlign:'left', color:'white', fontSize:{ xs:'x-small', md:'large' }, fontWeight:'bold' }}>
+                                                    - Descripción .- 
+                                                </Stack>
+
+                                                <Typography
+                                                        sx={{   alignItems:'center',
+                                                                height:'100%',
+                                                                justifyContent:'center',
+                                                                color:'white',
+                                                                fontSize:{ xs:'x-small', md:'large' },
+                                                                // wordBreak:'break-all',
+                                                                textAlign:'justify',
+                                                                // fontWeight:'bold',
+                                                                width:{ xs:'100%', sm:'70%'}  }} >
+                                                        Esta web está dividida en 3 partes, la primera parte es un video con opacidad y un título 
+                                                    por encima, la segunda parte son 3 cards que giran al pasar el ratón por encima y la tercera parte son 3 cards para 
+                                                    poder elegir diferentes paquetes de precios. Los botones, los íconos de redes sociales y el círculo "Most popular" son enlace,
+                                                     toda la web se puede ver en pantallas grandes y pequeñas.
+                                                </Typography>
+
+                                        </Stack>
+
+
+                                        <Stack sx={{ alignItems :'center', width:'100%' }}>
+                                                <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}>
+                                                        
+                                                            <Button sx={{ ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' }  }} >
+                                                                
+                                                                <InsertLinkIcon sx={{ fontSize:'2.5rem' }}></InsertLinkIcon> 
+
+                                                                <a className='enlace_al_proyecto' target="_blank" rel="noopener noreferrer" href="https://www.google.com/">
+                                                                            Enlace Al Proyecto
+                                                                </a>
+                                                    
+                                                            </Button>
+                                                        
+                                                </Stack>
+
+                                        </Stack>
+
+                            </Stack>
+                        )
+                    }
     
                     
     // -------------------------------------------------------------------------- 
@@ -185,7 +352,7 @@ export default function Proyectos(){
 
 
  
-
+    
 
 
     return(
@@ -205,14 +372,26 @@ export default function Proyectos(){
                             </div>
                     
                     </div>
+     
 
-                    <CardProyecto imagenFondoFrontProyectos={webResponsiveImagen} textoFrontProyectos={weatherAppTextFront}></CardProyecto>
+                    <Stack sx={{ width:'80%', borderRadius:'15px', background:'#2A1A59', textAlign:'center', flexDirection:'row', justifyContent:'center', p:'0.5rem' }}>
 
-                    <CardProyecto imagenFondoFrontProyectos={elTetris} textoFrontProyectos={elTetrisTextFront}></CardProyecto>
+                            <Stack sx={{ fontSize:'2rem' }}>
+                                👇
+                            </Stack>
+                            <Typography sx={{ color:'white', fontSize:'bold', alignSelf:'center' }}>
+                                PROYECTOS
+                            </Typography>
 
-                    <CardProyecto imagenFondoFrontProyectos={tableroKanban} textoFrontProyectos={kanbanTextFront}></CardProyecto>
+                    </Stack>
 
-                    <CardProyecto imagenFondoFrontProyectos={weatherApp} textoFrontProyectos={weatherAppTextFront}></CardProyecto>
+                    <CardProyecto imagenFondoFrontProyectos={webResponsiveImagen} textoFrontProyectos={WebResponsiveTextFront()} textoBeginProyectos={WebResponsiveTextBegin()}></CardProyecto>
+
+                    {/* <CardProyecto imagenFondoFrontProyectos={elTetris} textoFrontProyectos={elTetrisTextFront} textoBeginProyectos={}></CardProyecto>
+
+                    <CardProyecto imagenFondoFrontProyectos={tableroKanban} textoFrontProyectos={kanbanTextFront} textoBeginProyectos={}></CardProyecto>
+
+                    <CardProyecto imagenFondoFrontProyectos={weatherApp} textoFrontProyectos={weatherAppTextFront} textoBeginProyectos={}></CardProyecto> */}
 
 
             </Stack>

@@ -69,7 +69,7 @@ return (
     
                     {/* Parte de Detras */}
                     <div className='ProyectoCard-Begin'>
-                             detras
+                             {props.textoBeginProyectos}
                     </div>
     
                 </div>
