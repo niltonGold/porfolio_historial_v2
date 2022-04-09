@@ -142,11 +142,11 @@ export default function Proyectos(){
                     // TEXTO DE DETRAS
                             function WebResponsiveTextBegin(){
                                 return(
-                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:'2rem', pt:'2rem' }}>
+                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'0rem', md:'2rem' }, pt:'2rem' }}>
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
-                                                        <Stack sx={{ width:{ xs:'100%', sm:'40%'}, textAlign:'left', color:'white', fontSize:{ xs:'x-small', md:'large' }, fontWeight:'bold' }}>
+                                                        <Stack sx={{ width:{ xs:'100%', sm:'40%'}, textAlign:'left', color:'white', fontSize:{ xs:'xx-small', md:'large' }, fontWeight:'bold' }}>
                                                                 - Tecnologías Utilizadas .- 
                                                         </Stack>
 
@@ -155,7 +155,7 @@ export default function Proyectos(){
                                                                         height:'100%',
                                                                         justifyContent:'center',
                                                                         color:'white',
-                                                                        fontSize:{ xs:'x-small', md:'large' },
+                                                                        fontSize:{ xs:'xx-small', md:'large' },
                                                                         textAlign:'justify',
                                                                         width:{ xs:'100%', sm:'60%'}  }} >
 
@@ -168,7 +168,7 @@ export default function Proyectos(){
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
-                                                        <Stack sx={{ width:{ xs:'100%', sm:'30%'}, textAlign:'left', color:'white', fontSize:{ xs:'x-small', md:'large' }, fontWeight:'bold' }}>
+                                                        <Stack sx={{ width:{ xs:'100%', sm:'30%'}, textAlign:'left', color:'white', fontSize:{ xs:'xx-small', md:'large' }, fontWeight:'bold' }}>
                                                             - Descripción .- 
                                                         </Stack>
 
@@ -193,9 +193,9 @@ export default function Proyectos(){
 
                                                 <Stack sx={{ alignItems :'center', width:'100%' }}>
 
-                                                        <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}>
+                                                        {/* <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}> */}
                                                                 
-                                                                    <Button sx={{ ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' }  }} >
+                                                                    <Button sx={{ ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' } }} >
                                                                         
                                                                         <InsertLinkIcon sx={{ fontSize:'2.5rem' }}></InsertLinkIcon> 
 
@@ -207,7 +207,7 @@ export default function Proyectos(){
                                                             
                                                                     </Button>
                                                                 
-                                                        </Stack>
+                                                        {/* </Stack> */}
 
                                                 </Stack>
 
@@ -253,11 +253,11 @@ export default function Proyectos(){
                     // TEXTO DE DETRAS
                             function TetrisTextBegin(){
                                 return(
-                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:'2rem', pt:'2rem' }}>
+                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'0rem', md:'2rem' }, pt:'2rem' }}>
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
-                                                        <Stack sx={{ width:{ xs:'100%', sm:'40%'}, textAlign:'left', color:'white', fontSize:{ xs:'x-small', md:'large' }, fontWeight:'bold' }}>
+                                                        <Stack sx={{ width:{ xs:'100%', sm:'40%'}, textAlign:'left', color:'white', fontSize:{ xs:'xx-small', md:'large' }, fontWeight:'bold' }}>
                                                                 - Tecnologías Utilizadas .- 
                                                         </Stack>
 
@@ -266,7 +266,7 @@ export default function Proyectos(){
                                                                         height:'100%',
                                                                         justifyContent:'center',
                                                                         color:'white',
-                                                                        fontSize:{ xs:'x-small', md:'large' },
+                                                                        fontSize:{ xs:'xx-small', md:'large' },
                                                                         textAlign:'justify',
                                                                         width:{ xs:'100%', sm:'60%'}  }} >
 
@@ -279,7 +279,7 @@ export default function Proyectos(){
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
-                                                        <Stack sx={{ width:{ xs:'100%', sm:'30%'}, textAlign:'left', color:'white', fontSize:{ xs:'x-small', md:'large' }, fontWeight:'bold' }}>
+                                                        <Stack sx={{ width:{ xs:'100%', sm:'30%'}, textAlign:'left', color:'white', fontSize:{ xs:'xx-small', md:'large' }, fontWeight:'bold' }}>
                                                             - Descripción .- 
                                                         </Stack>
 
@@ -288,7 +288,7 @@ export default function Proyectos(){
                                                                         height:'100%',
                                                                         justifyContent:'center',
                                                                         color:'white',
-                                                                        fontSize:{ xs:'x-small', md:'large' },
+                                                                        fontSize:{ xs:'xx-small', md:'large' },
                                                                         textAlign:'justify',
                                                                         width:{ xs:'100%', sm:'70%'}  }} >
 
@@ -303,7 +303,7 @@ export default function Proyectos(){
 
                                                 <Stack sx={{ alignItems :'center', width:'100%' }}>
 
-                                                        <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}>
+                                                        {/* <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}> */}
                                                                 
                                                                     <Button sx={{ ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' }  }} >
                                                                         
@@ -317,7 +317,7 @@ export default function Proyectos(){
                                                             
                                                                     </Button>
                                                                 
-                                                        </Stack>
+                                                        {/* </Stack> */}
 
                                                 </Stack>
 
@@ -363,11 +363,11 @@ export default function Proyectos(){
                     // TEXTO DE DETRAS
                             function TableroKanbanTextBegin(){
                                 return(
-                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:'2rem', pt:'2rem' }}>
+                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'0rem', md:'2rem' }, pt:'2rem' }}>
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
-                                                        <Stack sx={{ width:{ xs:'100%', sm:'40%'}, textAlign:'left', color:'white', fontSize:{ xs:'x-small', md:'large' }, fontWeight:'bold' }}>
+                                                        <Stack sx={{ width:{ xs:'100%', sm:'40%'}, textAlign:'left', color:'white', fontSize:{ xs:'xx-small', md:'large' }, fontWeight:'bold' }}>
                                                                 - Tecnologías Utilizadas .- 
                                                         </Stack>
 
@@ -376,7 +376,7 @@ export default function Proyectos(){
                                                                         height:'100%',
                                                                         justifyContent:'center',
                                                                         color:'white',
-                                                                        fontSize:{ xs:'x-small', md:'large' },
+                                                                        fontSize:{ xs:'xx-small', md:'large' },
                                                                         textAlign:'justify',
                                                                         width:{ xs:'100%', sm:'60%'}  }} >
 
@@ -389,7 +389,7 @@ export default function Proyectos(){
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
-                                                        <Stack sx={{ width:{ xs:'100%', sm:'30%'}, textAlign:'left', color:'white', fontSize:{ xs:'x-small', md:'large' }, fontWeight:'bold' }}>
+                                                        <Stack sx={{ width:{ xs:'100%', sm:'30%'}, textAlign:'left', color:'white', fontSize:{ xs:'xx-small', md:'large' }, fontWeight:'bold' }}>
                                                             - Descripción .- 
                                                         </Stack>
 
@@ -398,7 +398,7 @@ export default function Proyectos(){
                                                                         height:'100%',
                                                                         justifyContent:'center',
                                                                         color:'white',
-                                                                        fontSize:{ xs:'x-small', md:'large' },
+                                                                        fontSize:{ xs:'xx-small', md:'large' },
                                                                         textAlign:'justify',
                                                                         width:{ xs:'100%', sm:'70%'}  }} >
 
@@ -413,7 +413,7 @@ export default function Proyectos(){
 
                                                 <Stack sx={{ alignItems :'center', width:'100%' }}>
 
-                                                        <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}>
+                                                        {/* <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}> */}
                                                                 
                                                                     <Button sx={{ ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' }  }} >
                                                                         
@@ -427,7 +427,7 @@ export default function Proyectos(){
                                                             
                                                                     </Button>
                                                                 
-                                                        </Stack>
+                                                        {/* </Stack> */}
 
                                                 </Stack>
 
@@ -473,11 +473,11 @@ export default function Proyectos(){
                     // TEXTO DE DETRAS
                             function WeatherAppTextBegin(){
                                 return(
-                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:'2rem', pt:'2rem' }}>
+                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'0rem', md:'2rem' }, pt:'2rem' }}>
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
-                                                        <Stack sx={{ width:{ xs:'100%', sm:'40%'}, textAlign:'left', color:'white', fontSize:{ xs:'x-small', md:'large' }, fontWeight:'bold' }}>
+                                                        <Stack sx={{ width:{ xs:'100%', sm:'40%'}, textAlign:'left', color:'white', fontSize:{ xs:'xx-small', md:'large' }, fontWeight:'bold' }}>
                                                                 - Tecnologías Utilizadas .- 
                                                         </Stack>
 
@@ -486,7 +486,7 @@ export default function Proyectos(){
                                                                         height:'100%',
                                                                         justifyContent:'center',
                                                                         color:'white',
-                                                                        fontSize:{ xs:'x-small', md:'large' },
+                                                                        fontSize:{ xs:'xx-small', md:'large' },
                                                                         textAlign:'justify',
                                                                         width:{ xs:'100%', sm:'60%'}  }} >
 
@@ -499,7 +499,7 @@ export default function Proyectos(){
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
-                                                        <Stack sx={{ width:{ xs:'100%', sm:'30%'}, textAlign:'left', color:'white', fontSize:{ xs:'x-small', md:'large' }, fontWeight:'bold' }}>
+                                                        <Stack sx={{ width:{ xs:'100%', sm:'30%'}, textAlign:'left', color:'white', fontSize:{ xs:'xx-small', md:'large' }, fontWeight:'bold' }}>
                                                             - Descripción .- 
                                                         </Stack>
 
@@ -508,7 +508,7 @@ export default function Proyectos(){
                                                                         height:'100%',
                                                                         justifyContent:'center',
                                                                         color:'white',
-                                                                        fontSize:{ xs:'x-small', md:'large' },
+                                                                        fontSize:{ xs:'xx-small', md:'large' },
                                                                         textAlign:'justify',
                                                                         width:{ xs:'100%', sm:'70%'}  }} >
 
@@ -523,7 +523,7 @@ export default function Proyectos(){
 
                                                 <Stack sx={{ alignItems :'center', width:'100%' }}>
 
-                                                        <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}>
+                                                        {/* <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}> */}
                                                                 
                                                                     <Button sx={{ ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' }  }} >
                                                                         
@@ -537,7 +537,7 @@ export default function Proyectos(){
                                                             
                                                                     </Button>
                                                                 
-                                                        </Stack>
+                                                        {/* </Stack> */}
 
                                                 </Stack>
 

@@ -12,6 +12,12 @@
 
 }
 
+    @media ( min-width: 0px ) and ( max-width: 900px ){
+        .ContactameCard-container_all{
+            width: 110%;
+        }
+    }
+
 
         /* Cuando pase el raton sobre la card, afectara al "Contenedor de toda la card" y al  "contenedor de la card de deltante y detras" */
         /* .ContactameCard-container_all:hover .ContactameCard-container-cardFront-cardBegin{
@@ -48,7 +54,7 @@
                     position: absolute;
                     text-align: center;
                     align-items: center;
-                    width: 90%;
+                    width: 95%;
                     /* height: 100%; */
                     display: flex;
                     
@@ -58,12 +64,13 @@
                     gap: 1rem;       
                 }
 
-                @media ( min-width: 0px ) and ( max-width: 900px ){
-                    .ContactameCard-texto_front{
-                        display: flex;
-                        flex-direction: column;
+                    @media ( min-width: 0px ) and ( max-width: 900px ){
+                        .ContactameCard-texto_front{
+                            display: flex;
+                            flex-direction: column;
+                            width: 85%;
+                        }
                     }
-                }
 
                         
 

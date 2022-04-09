@@ -20,6 +20,7 @@ export default function CardConoceme(props) {
                                 backfaceVisibility:'hidden', 
                                 backgroundImage:`url(${props.imagenFondoFrontConoceme})`, 
                                 backgroundSize:'100% 100%', 
+                               
                                 borderRadius:'15px', p:'1rem' }}>
 
 

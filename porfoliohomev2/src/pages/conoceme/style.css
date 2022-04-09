@@ -6,6 +6,11 @@
     align-items: center;
     width: 90%;
 }
+        @media ( min-width: 0px) and ( max-width: 900px){
+            .Conoceme_container-videoPresentation_textPresentation{
+                width: 110%;
+            }    
+        }
 
         .Conoceme_videoPresentation{
             width: 100%;
@@ -27,41 +32,41 @@
 
 
 
-        .Conoceme_textPresentation{
-            color: #ffffff;
-            font-size: 2rem;
-            position: absolute;
-            top: 0;
-            text-align: center;
-            width: 80%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-self: center;
-            row-gap: 1em;
-        }
+                .Conoceme_textPresentation{
+                    color: #ffffff;
+                    font-size: 2rem;
+                    position: absolute;
+                    top: 0;
+                    text-align: center;
+                    width: 80%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-self: center;
+                    row-gap: 1rem;
+                }
 
-        @media ( min-width: 0px) and ( max-width: 900px){
-            .Conoceme_textPresentation{
-                font-size:x-small;
-            }    
-        }
-        
+                        @media ( min-width: 0px) and ( max-width: 900px){
+                            .Conoceme_textPresentation{
+                                font-size:x-small;
+                            }    
+                        }
+                    
 
-        .porfolio_link_download_conoceme{
-            color: white;
-            text-decoration: none;
-            font-size: x-large;
-            font-weight: bold;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        } 
-        
-        @media ( min-width: 0px) and ( max-width: 900px){
-            .porfolio_link_download_conoceme{
-                font-size:small;
-            }    
-        }
+                .porfolio_link_download_conoceme{
+                    color: white;
+                    text-decoration: none;
+                    font-size: x-large;
+                    font-weight: bold;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                } 
+                
+                @media ( min-width: 0px) and ( max-width: 900px){
+                    .porfolio_link_download_conoceme{
+                        font-size:small;
+                    }    
+                }
