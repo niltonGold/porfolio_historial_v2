@@ -42,6 +42,7 @@
                     left: 0;
                     border-radius: 15px;
                 }
+                
 
                 .ProyectoCard-texto_front{
                     color: #ffffff;
@@ -59,9 +60,6 @@
                 }
 
                         
-
-
-
                 /* Card Parte de Detras */
                 .ProyectoCard-Begin{
                     background-color: rgb(0, 0, 0);

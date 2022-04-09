@@ -127,7 +127,7 @@ import Menu from '@mui/material/Menu';
                   {children}
                 </Slide>
               );
-            }
+          }
 
 
 
@@ -143,21 +143,27 @@ import Menu from '@mui/material/Menu';
 
 export default function Main(props) {
 
+
     const [value, setValue] = React.useState(0);
+
 
     const handleChange = (event, newValue) => {
       setValue(newValue);
     };
   
+
     const [anchorElNav, setAnchorElNav] = React.useState(null);
        
+
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
     };
 
+
     const handleCloseNavMenu = () => {
        setAnchorElNav(null); 
     };
+
 
 
 
@@ -176,7 +182,6 @@ export default function Main(props) {
                                 <Avatar sx={{ width:'5rem', height:'5rem' }} alt="Remy Sharp" src={logoPorfolio}></Avatar>
 
                         
-
 
                                 {/* Menu del medio del Header */}
                                 <Box sx={{ width:'100%', justifyContent:'center', borderBottom: 0, borderColor: 'divider', display: { xs: 'none', sm: 'flex' }  }}>
@@ -246,15 +251,27 @@ export default function Main(props) {
 
                 <Box sx={{ width: '100%', minHeight:'100vh', mt:'1rem' }}>
                       
-                      <TabPanel value={value} index={0}>
-                        <Proyectos></Proyectos>
-                      </TabPanel>
-                      <TabPanel value={value} index={1}>
-                        <Conoceme></Conoceme>
-                      </TabPanel>
-                      <TabPanel value={value} index={2}>
-                        <Contactame></Contactame>
-                      </TabPanel>
+                        <TabPanel value={value} index={0}>
+
+                          <Proyectos></Proyectos>
+
+                        </TabPanel>
+
+                      {/* -------------------------- */}
+
+                        <TabPanel value={value} index={1}>
+
+                          <Conoceme></Conoceme>
+
+                        </TabPanel>
+                      
+                      {/* -------------------------- */}
+
+                        <TabPanel value={value} index={2}>
+
+                          <Contactame></Contactame>
+
+                        </TabPanel>
                       
                 </Box>
 
@@ -262,9 +279,11 @@ export default function Main(props) {
 
           <ScrollTop {...props}>
 
-              <Fab color="secondary" size="small" aria-label="scroll back to top">
-                <KeyboardArrowUpIcon />
-              </Fab>
+                <Fab color="secondary" size="small" aria-label="scroll back to top">
+
+                  <KeyboardArrowUpIcon />
+                  
+                </Fab>
               
           </ScrollTop>
 

@@ -2,12 +2,10 @@
 
 /* CONTENEDOR DE TODA LA CARD */
 .ConocemeCard-container_all{
-    /* border: solid black 2px; */
     width: 80%;
     height: 400px;
     -webkit-perspective: 800;
     perspective: 800;
-    /* background-color: rgb(29, 29, 255); */
     border-radius: 15px;
 
 }
@@ -70,4 +68,5 @@
                     backface-visibility: hidden;
                     transform: rotateY(180deg);
                     border-radius: 15px;
+                    padding-top: 3rem;
                 }

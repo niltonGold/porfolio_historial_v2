@@ -1,2 +1,0 @@
-# porfolio_historial_v4
-estructura montada
