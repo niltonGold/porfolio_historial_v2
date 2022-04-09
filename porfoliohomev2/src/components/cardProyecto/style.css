@@ -1,18 +1,17 @@
 
-
 /* CONTENEDOR DE TODA LA CARD */
 .ProyectoCard-container_all{
-    /* border: solid black 2px; */
     width: 80%;
     height: 400px;
     -webkit-perspective: 800;
     perspective: 800;
-    /* background-color: rgb(29, 29, 255); */
     border-radius: 15px;
-
-
 }
-
+    @media ( min-width: 0px ) and ( max-width: 900px ){
+        .ProyectoCard-container_all{
+            width: 110%;
+        }
+    }
 
         /* Cuando pase el raton sobre la card, afectara al "Contenedor de toda la card" y al  "contenedor de la card de deltante y detras" */
         .ProyectoCard-container_all:hover .ProyectoCard-container-cardFront-cardBegin{
@@ -49,15 +48,19 @@
                     position: absolute;
                     text-align: center;
                     align-items: center;
-                    width: 100%;
+                    width: 95%;
                     height: 65%;
                     display: flex;
-                    
                     justify-content: center;
                     font-size: 3rem;
-                    font-weight: bold;  
-                           
+                    font-weight: bold;
+                    /* background-color: aqua;           */
                 }
+                        @media ( min-width: 0px ) and ( max-width: 900px ){
+                            .ProyectoCard-texto_front{
+                                width: 90%;
+                            }
+                        }
 
                         
                 /* Card Parte de Detras */
@@ -66,8 +69,6 @@
                     width: 100%;
                     height: 100%;
                     position: absolute;
-                    
-                   
                     -webkit-backface-visibility: hidden; 
                     backface-visibility: hidden;
                     transform: rotateY(180deg);

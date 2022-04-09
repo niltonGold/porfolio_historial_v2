@@ -64,7 +64,15 @@
                         }
 
                 .enlace_al_proyecto{
-                    text-decoration: none;
+                    /* text-decoration: none; */
                     font-weight: bold;
                     color: #ffffff;
+                    /* background-color: aqua; */
                 } 
+
+                    @media ( min-width: 0px) and ( max-width: 900px){
+                        .enlace_al_proyecto{
+                            text-decoration:underline;
+                            font-size: xx-small;
+                        }    
+                    }

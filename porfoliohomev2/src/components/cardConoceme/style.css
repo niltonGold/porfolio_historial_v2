@@ -1,5 +1,4 @@
 
-
 /* CONTENEDOR DE TODA LA CARD */
 .ConocemeCard-container_all{
     width: 80%;
@@ -7,8 +6,12 @@
     -webkit-perspective: 800;
     perspective: 800;
     border-radius: 15px;
-
 }
+    @media ( min-width: 0px ) and ( max-width: 900px ){
+        .ConocemeCard-container_all{
+            width: 110%;
+        }
+    }
 
 
         /* Cuando pase el raton sobre la card, afectara al "Contenedor de toda la card" y al  "contenedor de la card de deltante y detras" */
@@ -40,23 +43,25 @@
                     border-radius: 15px;
                 }
 
+
                 .ConocemeCard-texto_front{
                     color: #ffffff;
                     position: absolute;
                     text-align: center;
                     align-items: center;
-                    width: 100%;
+                    width: 95%;
                     height: 65%;
                     display: flex;
-                    
                     justify-content: center;
                     font-size: 3rem;
                     font-weight: bold;         
                 }
-
+                        @media ( min-width: 0px ) and ( max-width: 900px ){
+                            .ConocemeCard-texto_front{
+                                width: 90%;
+                            }
+                        }
                         
-
-
 
                 /* Card Parte de Detras */
                 .ConocemeCard-Begin{
