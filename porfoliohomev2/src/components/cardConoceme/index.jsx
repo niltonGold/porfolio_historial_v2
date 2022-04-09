@@ -32,7 +32,7 @@ export default function CardConoceme(props) {
 
                 {/* Parte de Detras */}
                 <div className='ConocemeCard-Begin'>
-                         detras
+                        {props.textoBeginConoceme}
                 </div>
 
             </div>

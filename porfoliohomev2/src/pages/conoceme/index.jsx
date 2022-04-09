@@ -11,9 +11,74 @@ import otrasHabilidadesImagen from '../../imagenes/imagenes_conoceme/otrasHabili
 import adaptabilidadImagen from '../../imagenes/imagenes_conoceme/adaptabilidad.jpg'
 
 export default function Conoceme(){
+    // TEXTO DE LO QUE ESTA ESCRITO ENCIMA DEL VIDEO
+    function ConocmeTextoVideoOver(){
+        return(
+            <Stack sx={{ p:'1rem', gap:'1rem', width:'100%', height:'100%' }}>
+
+
+                    <Stack  sx={{ flexDirection:'row', gap:'1rem'}}>
+
+                            <Typography sx={{ color:'white', textAlign:'center', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
+                                Soy Nilton Medina Sayan y aquí te comento cómo soy a nivel personal y profesional
+                            </Typography>
+
+
+                    </Stack>
+
+
+            </Stack>
+        )
+    }
 
     // PASIONES
-    const pasionesTitulo = 'PASIONES'
+            // TITULO DE DELANTE DE LA CARD
+                    function PasionesTextFront(){
+                        return(
+                            <Stack sx={{ flexDirection:'column', textAlign:'center' }}>
+
+                                <Typography 
+                                        sx={{   alignItems:'center',
+                                                height:'100%',
+                                                justifyContent:'center',
+                                                color:'white',
+                                                fontSize:'3rem',
+                                                //fontSize:{ xs:'1rem', md:'3rem' },
+                                                wordBreak:'break-all',
+                                                fontWeight:'bold'  }} >
+                                        PASIONES
+                                </Typography>
+                                
+                            </Stack>
+                        )
+                    }
+
+
+            // TEXTO DE DETRAS DE LA CARD
+                    function PasionesTextBegin(){
+                        return(
+                            <Stack sx={{ textAlign:'center', p:'2rem', height:'100%', pt:'3rem' }}>
+
+                                                <Typography
+                                                        sx={{   alignItems:'center',
+                                                        
+                                                                justifyContent:'center',
+                                                                color:'white',
+                                                                
+                                                                fontSize:{ xs:'x-small', md:'large' },
+                                                                textAlign:'justify',
+                                                                // fontWeight:'bold',
+                                                                
+                                                                width:'100%' }} >
+                                                        Esta web está dividida en 3 partes, la primera parte es un video con opacidad y un título 
+                                                    por encima, la segunda parte son 3 cards que giran al pasar el ratón por encima y la tercera parte son 3 cards para 
+                                                    poder elegir diferentes paquetes de precios. Los botones, los íconos de redes sociales y el círculo "Most popular" son enlace,
+                                                    toda la web se puede ver en pantallas grandes y pequeñas.
+                                                </Typography>
+
+                            </Stack>
+                        )
+                    }
 
 
 
@@ -105,20 +170,29 @@ export default function Conoceme(){
 
                             
                             <div className='Conoceme_textPresentation'>
-                                <h1>presentation</h1>
+                            Soy Nilton Medina Sayan y aquí te comento cómo soy a nivel personal y profesional
                             </div>
             
             </div>
 
-            <CardConoceme imagenFondoFrontConoceme={pasionesImagen} textoFrontConoceme={pasionesTitulo}></CardConoceme>
+            <Stack sx={{ width:'80%', borderRadius:'15px', background:'#2A1A59', textAlign:'center', flexDirection:'row', justifyContent:'center', p:'0.5rem' }}>
 
-            <CardConoceme imagenFondoFrontConoceme={caracteristicasPersonalesImagen} textoFrontConoceme={caracteristicasPersonalesTitulo()}></CardConoceme>
+                            <Stack sx={{ fontSize:'2rem' }}>
+                                👇
+                            </Stack>
+
+
+            </Stack>
+
+            <CardConoceme imagenFondoFrontConoceme={pasionesImagen} textoFrontConoceme={PasionesTextFront()} textoBeginConoceme={PasionesTextBegin()} ></CardConoceme>
+
+            {/* <CardConoceme imagenFondoFrontConoceme={caracteristicasPersonalesImagen} textoFrontConoceme={caracteristicasPersonalesTitulo()}></CardConoceme>
 
             <CardConoceme imagenFondoFrontConoceme={habilidadesImagen} textoFrontConoceme={habilidadesTitulo}></CardConoceme>
 
             <CardConoceme imagenFondoFrontConoceme={otrasHabilidadesImagen} textoFrontConoceme={otrasHabilidadesTitulo()}></CardConoceme>
 
-            <CardConoceme imagenFondoFrontConoceme={adaptabilidadImagen} textoFrontConoceme={adaptabilidadTitulo}></CardConoceme>
+            <CardConoceme imagenFondoFrontConoceme={adaptabilidadImagen} textoFrontConoceme={adaptabilidadTitulo}></CardConoceme> */}
 
      
             
