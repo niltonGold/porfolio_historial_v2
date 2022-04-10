@@ -32,8 +32,8 @@ export default function Proyectos(){
                                 <Stack  sx={{ flexDirection:'row', gap:'1rem'}}>
 
                                         <Typography sx={{ color:'white', textAlign:'center', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
-                                            ¡Hola!, Soy <b>Nilton Enrique Medina Sayan</b>, soy un <b>WEB FULL STACK DEVELOPER</b> y este es mi <b>repositorio</b>, 
-                                            un espacio donde me conocerás un poco más a nivel <b>personal</b>  y <b>profesional</b>.
+                                        🖐️¡Hola!, Soy <b>Nilton Enrique Medina Sayan</b>, soy un <b>WEB FULL STACK DEVELOPER</b> y este es mi <b>repositorio</b>, 
+                                            un espacio⭐ donde me conocerás un poco más a nivel <b>personal</b>  y <b>profesional</b>.
                                         </Typography>
 
                                         <Avatar sx={{ width:{ xs:'4rem', md:'9rem' }, height:{ xs:'4rem', md:'9rem' } }} alt="Remy Sharp" src={fotoPorfolio} />
@@ -42,7 +42,7 @@ export default function Proyectos(){
 
 
                                 <Typography sx={{ color:'white', textAlign:'center', fontWeight:'bold', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify' }} >
-                                    ¿Que es lo que se hacer?
+                                🛠¿Que es lo que se hacer?
                                 </Typography>
 
 
@@ -55,7 +55,7 @@ export default function Proyectos(){
                                                 </Typography>
 
                                                 <Typography sx={{ color:'white', textAlign:'center', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
-                                                    Manejo conceptos básicos de <b>GITHUB</b> como, repositorios de código, <b>COMMINT</b>
+                                                🤏Manejo conceptos básicos de <b>GITHUB</b> como, repositorios de código, <b>COMMINT</b>
                                                     , <b>PUSH</b>, <b>PULL</b>, <b>FECHT</b>, <b>RESET</b>, <b>RAMAS</b>, <b>MERGE</b>, repositorios <b>remotos</b>, etc.
                                                 </Typography>
 
@@ -68,7 +68,7 @@ export default function Proyectos(){
                                                 </Typography>
 
                                                 <Typography sx={{ color:'white', textAlign:'center', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center'}} >
-                                                    Realizo páginas web completas <b>END to END</b>, es decir desde el <b>Front-End</b> hasta el <b>Back-End</b>. 
+                                                📌Realizo páginas web completas <b>END to END</b>, es decir desde el <b>Front-End</b> hasta el <b>Back-End</b>. 
                                                 </Typography>
 
                                         </Stack>
@@ -80,7 +80,7 @@ export default function Proyectos(){
                                                 </Typography>
 
                                                 <Typography sx={{ color:'white', textAlign:'center', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
-                                                    Para hacer el <b>Front-End</b> manejo conceptos como el <b>HTML</b>, <b>CSS</b>, <b>JAVASCRIPT</b>
+                                                📗Para hacer el <b>Front-End</b> manejo conceptos como el <b>HTML</b>, <b>CSS</b>, <b>JAVASCRIPT</b>
                                                     , la libreria <b>REACT</b> y el <b>REACT UI FRAMEWORK MUI</b>.
                                                 </Typography>
 
@@ -93,7 +93,7 @@ export default function Proyectos(){
                                                 </Typography>
 
                                                 <Typography sx={{ color:'white', textAlign:'center', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
-                                                    Para hacer el <b>Back-End</b> manejo conceptos como el <b>NODE JS</b>, <b>EXPRESS</b>
+                                                📙Para hacer el <b>Back-End</b> manejo conceptos como el <b>NODE JS</b>, <b>EXPRESS</b>
                                                     , <b>MONGO DB</b> y la <b>arquitectura MVC</b>.
                                                 </Typography>
 
@@ -142,12 +142,12 @@ export default function Proyectos(){
                     // TEXTO DE DETRAS
                             function WebResponsiveTextBegin(){
                                 return(
-                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'0rem', md:'2rem' }, pt:'2rem' }}>
+                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'1rem', md:'2rem' }, pt:'2rem' }}>
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
                                                         <Stack sx={{ width:{ xs:'100%', sm:'40%'}, textAlign:'left', color:'white', fontSize:{ xs:'xx-small', md:'large' }, fontWeight:'bold' }}>
-                                                                - Tecnologías Utilizadas .- 
+                                                                - Tecnologías Utilizadas .-
                                                         </Stack>
 
                                                         <Typography
@@ -181,9 +181,9 @@ export default function Proyectos(){
                                                                         textAlign:'justify',
                                                                         width:{ xs:'100%', sm:'70%'}  }} >
 
-                                                            Esta web está dividida en 3 partes, la primera parte es un video con opacidad y un título 
-                                                            por encima, la segunda parte son 3 cards que giran al pasar el ratón por encima y la tercera parte son 3 cards para 
-                                                            poder elegir diferentes paquetes de precios. Los botones, los íconos de redes sociales y el círculo "Most popular" son enlaces,
+                                                            Esta web está dividida ✂ en 3 partes, la primera parte es un video 📺 con opacidad y un título 
+                                                            por encima, la segunda parte son 3 cards que giran al pasar el 🖱 ratón por encima y la tercera parte son 3 cards para 
+                                                            poder elegir diferentes paquetes de precios. Los botones, los íconos de redes sociales y el círculo "Most popular" son 📎 enlaces,
                                                             toda la web se puede ver en pantallas grandes y pequeñas.
 
                                                         </Typography>
@@ -253,7 +253,7 @@ export default function Proyectos(){
                     // TEXTO DE DETRAS
                             function TetrisTextBegin(){
                                 return(
-                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'0rem', md:'2rem' }, pt:'2rem' }}>
+                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'1rem', md:'2rem' }, pt:'2rem' }}>
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
@@ -292,7 +292,7 @@ export default function Proyectos(){
                                                                         textAlign:'justify',
                                                                         width:{ xs:'100%', sm:'70%'}  }} >
 
-                                                            En esta web se puede jugar el clásico juego del tetris, su funcionamiento es muy básico, con las flechas del teclado se pueden 
+                                                            👾En esta web se puede jugar el 🎮 clásico juego del tetris, su funcionamiento es muy básico, con las flechas del teclado se pueden 
                                                             controlar los tetrominios, el juego tiene un cuadro pequeño donde se puede ver el score que suma el puntaje, el siguiente tetrominio 
                                                             que viene y cuando se pierde el juego sale una pantalla que te permite reiniciar el juego.
 
@@ -363,7 +363,7 @@ export default function Proyectos(){
                     // TEXTO DE DETRAS
                             function TableroKanbanTextBegin(){
                                 return(
-                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'0rem', md:'2rem' }, pt:'2rem' }}>
+                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'1rem', md:'2rem' }, pt:'2rem' }}>
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
@@ -402,7 +402,7 @@ export default function Proyectos(){
                                                                         textAlign:'justify',
                                                                         width:{ xs:'100%', sm:'70%'}  }} >
 
-                                                            Esta web es un tablero kanban básico de 3 columnas, se puede agregar, borrar, mover y buscar tareas, para 
+                                                            🗒Esta web es un tablero kanban básico de 3 columnas 🗂, se puede agregar, borrar, mover y buscar tareas, para 
                                                             el código he utlizado la estructura React npm, dentro del código utilizo mucho la herencia padre-hijo e 
                                                             hijo-padre para la creación de las columnas y tareas.
 
@@ -473,7 +473,7 @@ export default function Proyectos(){
                     // TEXTO DE DETRAS
                             function WeatherAppTextBegin(){
                                 return(
-                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'0rem', md:'2rem' }, pt:'2rem' }}>
+                                    <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'1rem', md:'2rem' }, pt:'2rem' }}>
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
@@ -512,8 +512,8 @@ export default function Proyectos(){
                                                                         textAlign:'justify',
                                                                         width:{ xs:'100%', sm:'70%'}  }} >
 
-                                                            Esta web es una aplicación donde se puede ver el clima de una ciudad en tiempo real, al escribir la ciudad correspondiente en el buscador  
-                                                            aparecen los datos del clima del día actual y de los 7 siguientes días, en esta web estoy utilizando los datos de la 
+                                                            ☂Esta web es una aplicación donde se puede ver el clima de una ciudad en tiempo real, al escribir la ciudad correspondiente en el buscador  
+                                                            aparecen los datos del clima del día actual y de los 7 siguientes días 🌅, en esta web estoy utilizando los datos de la 
                                                             API de la pagina OpenWeather.
 
                                                         </Typography>
