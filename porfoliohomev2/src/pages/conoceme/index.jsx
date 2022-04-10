@@ -50,7 +50,7 @@ export default function Conoceme(){
                                                                 textAlign:'justify',  
                                                                 width:'100%' }} >
 
-                                                    Me gusta mucho que las cosas estén muy ordenadas, tal y como se muestra en la página de mi porfolio 
+                                                    ❤️ Me gusta mucho que las cosas estén muy ordenadas, tal y como se muestra en la página de mi porfolio 
                                                     , para ello utilizo mucho el CSS y el React UI Framework MUI.
 
                                                 </Typography>
@@ -108,7 +108,7 @@ export default function Conoceme(){
                                                                 textAlign:'justify',  
                                                                 width:'100%' }} >
 
-                                                    Soy una persona muy responsable, trabajadora, ordenada y sobre todo muy puntual, 
+                                                    💻Soy una persona muy responsable, trabajadora, ordenada y sobre todo muy puntual, 
                                                      la puntualidad es muy importante para mi, además cuando me comprometo a algo no 
                                                     para hasta que lo termino todo, me gusta mucho buscar constantemente soluciones a los problemas. 
 
@@ -154,7 +154,7 @@ export default function Conoceme(){
                                                                 textAlign:'justify',  
                                                                 width:'100%' }} >
 
-                                                    Mis habilidades fundamentales son el FULL STACK, es decir el desarrollo web desde el 
+                                                    🎳 Mis habilidades fundamentales son el FULL STACK, es decir el desarrollo web desde el 
                                                     Front-End hasta el Back-End utilizando para ello HTML, CSS, JAVASCRIPT, la libreria REACT y 
                                                     NODE JS, para poder realizar el FULL STACK estudié el STACK MERN ( MongDB, ExpressJS, ReactJS, NodeJS ).
 
@@ -212,7 +212,7 @@ export default function Conoceme(){
                                                                 textAlign:'justify',  
                                                                 width:'100%' }} >
 
-                                                    Además de mis conocimientos en FULL STACK también tengo otros conocimientos extras como, conceptos básicos de 
+                                                    💪 Además de mis conocimientos en FULL STACK también tengo otros conocimientos extras como, conceptos básicos de 
                                                     Java, Pascal, administración y gestión de redes, además de conocimientos básicos de entornos de sistemas operativos 
                                                     como Windows o Linux.
 
@@ -259,7 +259,7 @@ export default function Conoceme(){
                                                                 textAlign:'justify',  
                                                                 width:'100%' }} >
 
-                                                    Me adapto a casi cualquier situación que se me presente, si hace falta revisar la documentación de 
+                                                    📌 Me adapto a casi cualquier situación que se me presente, si hace falta revisar la documentación de 
                                                     algún otro código de programación ajeno a lo que estudié lo hago sin ningun problema, cualquier cosa nueva 
                                                     de la que me tenga que documentar me lo tomo como un reto a superar.
 
