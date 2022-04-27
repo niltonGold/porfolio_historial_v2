@@ -17,9 +17,19 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 
 const enlaceAlProyectoWebResponsive = 'https://webresponsiveanimada.herokuapp.com/';
+const enlaceAlProyectoWebResponsiveGitHub = 'https://github.com/niltonGold/proyecto_WebResponsiveAnimadaV2.git';
+
 const enlaceAlProyectoTetris = 'https://webtetris.herokuapp.com/';
+const enlaceAlProyectoTetrisGitHub = 'https://github.com/niltonGold/proyecto_ElTetrisV2.git';
+
 const enlaceAlProyectoKanban = 'https://tablerokanbannil.herokuapp.com/';
+const enlaceAlProyectoKanbanGitHub = 'https://github.com/niltonGold/proyecto_TableroKanbanV2.git';
+
+
 const enlaceAlProyectoWeatherApp = 'https://weatherappnil.herokuapp.com/';
+const enlaceAlProyectoWeatherAppGitHub = 'https://github.com/niltonGold/proyecto_TableroKanbanV2.git';
+
+
 
 export default function Proyectos(){
 
@@ -191,11 +201,11 @@ export default function Proyectos(){
                                                 </Stack>
 
 
-                                                <Stack sx={{ alignItems :'center', width:'100%' }}>
+                                                <Stack sx={{ alignItems :'center', width:'100%', width:'100%' }}>
 
-                                                        {/* <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}> */}
+                                                        <Stack sx={{ width:{ xs:'60%', sm:'35%' }, gap:'1rem' }}>
                                                                 
-                                                                    <Button sx={{ ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' } }} >
+                                                                    <Button sx={{ justifyContent:'left', ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' } }} >
                                                                         
                                                                         <InsertLinkIcon sx={{ fontSize:'2.5rem' }}></InsertLinkIcon> 
 
@@ -206,8 +216,22 @@ export default function Proyectos(){
                                                                         </a>
                                                             
                                                                     </Button>
+
+
+
+                                                                    <Button sx={{ justifyContent:'left', ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' } }} >
+                                                                        
+                                                                        <InsertLinkIcon sx={{ fontSize:'2.5rem' }}></InsertLinkIcon> 
+
+                                                                        <a className='enlace_al_proyecto' target="_blank" rel="noopener noreferrer" href={enlaceAlProyectoWebResponsiveGitHub}>
+
+                                                                                    Enlace  Al  GitHub
+
+                                                                        </a>
+                                                            
+                                                                    </Button>
                                                                 
-                                                        {/* </Stack> */}
+                                                        </Stack>
 
                                                 </Stack>
 
@@ -303,9 +327,9 @@ export default function Proyectos(){
 
                                                 <Stack sx={{ alignItems :'center', width:'100%' }}>
 
-                                                        {/* <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}> */}
+                                                        <Stack sx={{ width:{ xs:'60%', sm:'35%' },gap:'1rem'  }}>
                                                                 
-                                                                    <Button sx={{ ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' }  }} >
+                                                                    <Button sx={{ justifyContent:'left', ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' }  }} >
                                                                         
                                                                         <InsertLinkIcon sx={{ fontSize:'2.5rem' }}></InsertLinkIcon> 
 
@@ -316,8 +340,22 @@ export default function Proyectos(){
                                                                         </a>
                                                             
                                                                     </Button>
+
+
+
+                                                                    <Button sx={{ justifyContent:'left',":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' } }} >
+                                                                        
+                                                                        <InsertLinkIcon sx={{ fontSize:'2.5rem' }}></InsertLinkIcon> 
+
+                                                                        <a className='enlace_al_proyecto' target="_blank" rel="noopener noreferrer" href={enlaceAlProyectoTetrisGitHub}>
+
+                                                                                    Enlace Al GitHub
+
+                                                                        </a>
+                                                            
+                                                                    </Button>
                                                                 
-                                                        {/* </Stack> */}
+                                                        </Stack>
 
                                                 </Stack>
 
@@ -413,9 +451,9 @@ export default function Proyectos(){
 
                                                 <Stack sx={{ alignItems :'center', width:'100%' }}>
 
-                                                        {/* <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}> */}
+                                                        <Stack sx={{  width:{ xs:'60%', sm:'35%' }, gap:'1rem'  }}>
                                                                 
-                                                                    <Button sx={{ ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' }  }} >
+                                                                    <Button sx={{ justifyContent:'left',":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' }  }} >
                                                                         
                                                                         <InsertLinkIcon sx={{ fontSize:'2.5rem' }}></InsertLinkIcon> 
 
@@ -426,8 +464,22 @@ export default function Proyectos(){
                                                                         </a>
                                                             
                                                                     </Button>
+
+
+
+                                                                    <Button sx={{ justifyContent:'left', ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' } }} >
+                                                                        
+                                                                        <InsertLinkIcon sx={{ fontSize:'2.5rem' }}></InsertLinkIcon> 
+
+                                                                        <a className='enlace_al_proyecto' target="_blank" rel="noopener noreferrer" href={enlaceAlProyectoKanbanGitHub}>
+
+                                                                                    Enlace Al GitHub
+
+                                                                        </a>
+                                                            
+                                                                    </Button>
                                                                 
-                                                        {/* </Stack> */}
+                                                        </Stack>
 
                                                 </Stack>
 
@@ -523,9 +575,9 @@ export default function Proyectos(){
 
                                                 <Stack sx={{ alignItems :'center', width:'100%' }}>
 
-                                                        {/* <Stack sx={{ alignContent:'center', width:{ xs:'60%', sm:'40%' } }}> */}
+                                                        <Stack sx={{ width:{ xs:'60%', sm:'35%' }, gap:'1rem' }}>
                                                                 
-                                                                    <Button sx={{ ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' }  }} >
+                                                                    <Button sx={{ justifyContent:'left',":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' }  }} >
                                                                         
                                                                         <InsertLinkIcon sx={{ fontSize:'2.5rem' }}></InsertLinkIcon> 
 
@@ -536,8 +588,21 @@ export default function Proyectos(){
                                                                         </a>
                                                             
                                                                     </Button>
+
+
+                                                                    <Button sx={{ justifyContent:'left',":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' } }} >
+                                                                        
+                                                                        <InsertLinkIcon sx={{ fontSize:'2.5rem' }}></InsertLinkIcon> 
+
+                                                                        <a className='enlace_al_proyecto' target="_blank" rel="noopener noreferrer" href={enlaceAlProyectoWeatherAppGitHub}>
+
+                                                                                    Enlace Al GitHub
+
+                                                                        </a>
+                                                            
+                                                                    </Button>
                                                                 
-                                                        {/* </Stack> */}
+                                                        </Stack>
 
                                                 </Stack>
 
