@@ -32,10 +32,17 @@ return (
                     </Stack>
     
                     {/* Parte de Detras */}
+                    {/* <div className='ProyectoCard-Begin'> */}
                     <div className='ProyectoCard-Begin'>
+                            
                              {props.textoBeginProyectos}
-                    </div>
+
+                      
+           
+                        
     
+                    </div>
+                    
                 </div>
                
         </div>

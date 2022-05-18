@@ -66,9 +66,16 @@
                 .enlace_al_proyecto{
                     /* text-decoration: none; */
                     font-weight: bold;
-                    color: #ffffff;
-                    /* background-color: aqua; */
-                } 
+                    color:#ffffff;
+                     
+                }
+
+                
+
+                .enlace_al_p:hover{
+                    text-indent: 100px;
+                    color: aqua;
+                }
 
                     @media ( min-width: 0px) and ( max-width: 900px){
                         .enlace_al_proyecto{

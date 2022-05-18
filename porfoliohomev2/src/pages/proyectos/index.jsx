@@ -13,7 +13,6 @@ import weatherApp from '../../imagenes/imagenes_proyectos/imagenes_proyecto_weat
 import fotoPorfolio from '../../imagenes/imagenes_porfolio/fotoPorfolio.jpg';
 import InsertLinkIcon from '@mui/icons-material/InsertLink';
 import Button from '@mui/material/Button';
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 
 const enlaceAlProyectoWebResponsive = 'https://webresponsiveanimada.herokuapp.com/';
@@ -41,7 +40,7 @@ export default function Proyectos(){
 
                                 <Stack  sx={{ flexDirection:'row', gap:'1rem'}}>
 
-                                        <Typography sx={{ color:'white', textAlign:'center', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
+                                        <Typography sx={{ color:'white', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
                                         🖐️¡Hola!, Soy <b>Nilton Enrique Medina Sayan</b>, soy un <b>WEB FULL STACK DEVELOPER</b> y este es mi <b>repositorio</b>, 
                                             un espacio⭐ donde me conocerás un poco más a nivel <b>personal</b>  y <b>profesional</b>.
                                         </Typography>
@@ -51,7 +50,7 @@ export default function Proyectos(){
                                 </Stack>
 
 
-                                <Typography sx={{ color:'white', textAlign:'center', fontWeight:'bold', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify' }} >
+                                <Typography sx={{ color:'white', fontWeight:'bold', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify' }} >
                                 🛠¿Que es lo que se hacer?
                                 </Typography>
 
@@ -60,11 +59,11 @@ export default function Proyectos(){
 
                                         <Stack sx={{ flexDirection:'row', gap:'1rem' }}>
 
-                                                <Typography sx={{ color:'white', textAlign:'center', fontWeight:'bold', fontSize:'large', textAlign:'justify' }} >
+                                                <Typography sx={{ color:'white', fontWeight:'bold', fontSize:'large', textAlign:'justify' }} >
                                                     -
                                                 </Typography>
 
-                                                <Typography sx={{ color:'white', textAlign:'center', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
+                                                <Typography sx={{ color:'white', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
                                                 🤏Manejo conceptos básicos de <b>GITHUB</b> como, repositorios de código, <b>COMMINT</b>
                                                     , <b>PUSH</b>, <b>PULL</b>, <b>FECHT</b>, <b>RESET</b>, <b>RAMAS</b>, <b>MERGE</b>, repositorios <b>remotos</b>, etc.
                                                 </Typography>
@@ -73,11 +72,11 @@ export default function Proyectos(){
 
                                         <Stack sx={{ flexDirection:'row', gap:'1rem' }}>
 
-                                                <Typography sx={{ color:'white', textAlign:'center', fontWeight:'bold', fontSize:'large', textAlign:'justify' }} >
+                                                <Typography sx={{ color:'white', fontWeight:'bold', fontSize:'large', textAlign:'justify' }} >
                                                     -
                                                 </Typography>
 
-                                                <Typography sx={{ color:'white', textAlign:'center', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center'}} >
+                                                <Typography sx={{ color:'white', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center'}} >
                                                 📌Realizo páginas web completas <b>END to END</b>, es decir desde el <b>Front-End</b> hasta el <b>Back-End</b>. 
                                                 </Typography>
 
@@ -85,11 +84,11 @@ export default function Proyectos(){
 
                                         <Stack sx={{ flexDirection:'row', gap:'1rem' }}>
 
-                                                <Typography sx={{ color:'white', textAlign:'center', fontWeight:'bold', fontSize:'large', textAlign:'justify' }} >
+                                                <Typography sx={{ color:'white', fontWeight:'bold', fontSize:'large', textAlign:'justify' }} >
                                                     -
                                                 </Typography>
 
-                                                <Typography sx={{ color:'white', textAlign:'center', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
+                                                <Typography sx={{ color:'white', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
                                                 📗Para hacer el <b>Front-End</b> manejo conceptos como el <b>HTML</b>, <b>CSS</b>, <b>JAVASCRIPT</b>
                                                     , la libreria <b>REACT</b> y el <b>REACT UI FRAMEWORK MUI</b>.
                                                 </Typography>
@@ -98,11 +97,11 @@ export default function Proyectos(){
 
                                         <Stack sx={{ flexDirection:'row', gap:'1rem' }}>
 
-                                                <Typography sx={{ color:'white', textAlign:'center', fontWeight:'bold', fontSize:'large', textAlign:'justify' }} >
+                                                <Typography sx={{ color:'white', fontWeight:'bold', fontSize:'large', textAlign:'justify' }} >
                                                     -
                                                 </Typography>
 
-                                                <Typography sx={{ color:'white', textAlign:'center', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
+                                                <Typography sx={{ color:'white', fontSize:{ xs:'x-small', md:'large' }, textAlign:'justify', alignSelf:'center' }} >
                                                 📙Para hacer el <b>Back-End</b> manejo conceptos como el <b>NODE JS</b>, <b>EXPRESS</b>
                                                     , <b>MONGO DB</b> y la <b>arquitectura MVC</b>.
                                                 </Typography>
@@ -142,6 +141,7 @@ export default function Proyectos(){
 
                                                     ANIMADA
                                                     
+                                                    
                                             </Typography>
                                         
                                     </Stack>
@@ -152,7 +152,9 @@ export default function Proyectos(){
                     // TEXTO DE DETRAS
                             function WebResponsiveTextBegin(){
                                 return(
+                             
                                     <Stack sx={{ flexDirection:'column', textAlign:'center', p:'2rem', gap:{ xs:'1rem', md:'2rem' }, pt:'2rem' }}>
+                                             
 
                                                 <Stack sx={{ flexDirection:{ xs:'column', sm:'row' } }}>
 
@@ -201,12 +203,13 @@ export default function Proyectos(){
                                                 </Stack>
 
 
-                                                <Stack sx={{ alignItems :'center', width:'100%', width:'100%' }}>
+                                                <Stack sx={{ alignItems :'flex-end', width:'100%' }}>
 
-                                                        <Stack sx={{ width:{ xs:'60%', sm:'35%' }, gap:'1rem' }}>
+                                                        <Stack sx={{  width:{ xs:'60%', sm:'35%' }, gap:'1rem' }}>
                                                                 
-                                                                    <Button sx={{ justifyContent:'left', ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' } }} >
-                                                                        
+                                                                
+                                                                    <Button sx={{ justifyContent:'left', ":hover":{ justifyItems:'center', backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' } }} >
+                                                                    
                                                                         <InsertLinkIcon sx={{ fontSize:'2.5rem' }}></InsertLinkIcon> 
 
                                                                         <a className='enlace_al_proyecto' target="_blank" rel="noopener noreferrer" href={enlaceAlProyectoWebResponsive}>
@@ -214,9 +217,10 @@ export default function Proyectos(){
                                                                                     Enlace Al Proyecto
 
                                                                         </a>
+                      
                                                             
                                                                     </Button>
-
+                                                                   
 
 
                                                                     <Button sx={{ justifyContent:'left', ":hover":{ backgroundColor:'primary.main', color:'white' }, textTransform: 'capitalize', fontSize:{ xs:'small', md:'large' }, height:{ xs:'4rem', sm:'1.5rem' } }} >
@@ -231,11 +235,16 @@ export default function Proyectos(){
                                                             
                                                                     </Button>
                                                                 
+
                                                         </Stack>
 
+
+
                                                 </Stack>
+                                                
 
                                     </Stack>
+                                   
                                 )
                             }
 
@@ -325,7 +334,7 @@ export default function Proyectos(){
                                                 </Stack>
 
 
-                                                <Stack sx={{ alignItems :'center', width:'100%' }}>
+                                                <Stack sx={{ alignItems :'flex-end', width:'100%' }}>
 
                                                         <Stack sx={{ width:{ xs:'60%', sm:'35%' },gap:'1rem'  }}>
                                                                 
@@ -449,7 +458,7 @@ export default function Proyectos(){
                                                 </Stack>
 
 
-                                                <Stack sx={{ alignItems :'center', width:'100%' }}>
+                                                <Stack sx={{ alignItems :'flex-end', width:'100%' }}>
 
                                                         <Stack sx={{  width:{ xs:'60%', sm:'35%' }, gap:'1rem'  }}>
                                                                 
@@ -573,7 +582,7 @@ export default function Proyectos(){
                                                 </Stack>
 
 
-                                                <Stack sx={{ alignItems :'center', width:'100%' }}>
+                                                <Stack sx={{ alignItems :'flex-end', width:'100%' }}>
 
                                                         <Stack sx={{ width:{ xs:'60%', sm:'35%' }, gap:'1rem' }}>
                                                                 
